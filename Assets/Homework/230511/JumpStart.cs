@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class JumpStart : MonoBehaviour
 {
     public Rigidbody rb;
 
@@ -10,8 +10,8 @@ public class NewBehaviourScript : MonoBehaviour
 
     public void Start()
     {
+        Debug.Log("JumpStart");
         rb = GetComponent<Rigidbody>();
         rb.AddForce(jumpPower, ForceMode.Impulse);
-
     }
 }
