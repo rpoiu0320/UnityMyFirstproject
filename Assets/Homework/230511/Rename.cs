@@ -8,7 +8,7 @@ public class Rename : MonoBehaviour
 
     private void Awake()
     {
-        name = "player";
         Debug.Log("Rename Player");
+        name = "player";
     }
 }
