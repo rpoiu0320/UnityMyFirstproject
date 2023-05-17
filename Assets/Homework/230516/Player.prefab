@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261232829183509126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 1.51, z: 0.765}
+  m_LocalPosition: {x: 0.05, y: 1.51, z: 0.752}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -415,8 +415,9 @@ GameObject:
   - component: {fileID: 5830675219687605472}
   - component: {fileID: 5830675219687605475}
   - component: {fileID: 5830675219687605473}
-  - component: {fileID: 1456743132013825449}
-  - component: {fileID: 5959784687949935926}
+  - component: {fileID: 1706881815984144225}
+  - component: {fileID: -6548740166328137694}
+  - component: {fileID: -7533388290394657538}
   m_Layer: 12
   m_Name: Player
   m_TagString: Untagged
@@ -482,8 +483,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8441396, y: 2.0653872, z: 2.4578366}
-  m_Center: {x: -0.09372592, y: 0.9280565, z: 0.015094042}
+  m_Size: {x: 1.8441396, y: 1.215775, z: 2.4578366}
+  m_Center: {x: -0.09372592, y: 0.50325036, z: 0.015094042}
 --- !u!54 &5830675219687605473
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -500,7 +501,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1456743132013825449
+--- !u!65 &1706881815984144225
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830675219687184654}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.8690777, z: 1.650024}
+  m_Center: {x: 0, y: 1.4346466, z: 0.03610283}
+--- !u!114 &-6548740166328137694
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -509,10 +523,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5830675219687184654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61c07ccc4ea7c0246a6b73d58b3d8532, type: 3}
+  m_Script: {fileID: 11500000, guid: e365359d024f5e447b2415568c457788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5959784687949935926
+--- !u!114 &-7533388290394657538
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -521,9 +535,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5830675219687184654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9481671f8a2b197499d8e3b252b7da0d, type: 3}
+  m_Script: {fileID: 11500000, guid: f7f4ad3e222405e44a4f4993cb198c3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPoint: {fileID: 1261232829183509127}
-  bulletPrefab: {fileID: -3060323726377584161, guid: 81fe8778bf858fc4195bf8c64b1a3109, type: 3}
+  bulletPrefab: {fileID: -3774453483772246740, guid: 152d95fb516f9724caf7681b4ee71ce2, type: 3}
   repeatTime: 3
