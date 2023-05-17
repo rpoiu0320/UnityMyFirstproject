@@ -13,6 +13,7 @@ public class Fire0516 : MonoBehaviour
     [SerializeField] private Transform bulletPoint;                                        // bullet이 생성될 시 기준으로 할 위치
     [SerializeField] private Bullet0516 bulletPrefab;                                      // 생성할 bullet의 prefab
     [SerializeField] private float repeatTime;                                             // 재발사 시까지 걸릴 시간
+    [SerializeField] private AudioSource sootSound;
 
     IEnumerator BulletMakeRoutine()                                                        // 코루틴 동작 지정
     {
@@ -29,6 +30,7 @@ public class Fire0516 : MonoBehaviour
     {
         if (value.isPressed)                                                               // 눌린 상태이면
         {
+            sootSound.Play();
             bulletRoutine = StartCoroutine(BulletMakeRoutine());                           // 코루틴 동작
         }
         else                                                                               // 키를 때면

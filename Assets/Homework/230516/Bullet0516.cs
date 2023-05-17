@@ -8,6 +8,7 @@ public class Bullet0516 : MonoBehaviour
 {
     [SerializeField] private float bulletSpped;             // bullet狼 框流老 加档
     [SerializeField] private GameObject explosionEffect;
+    [SerializeField] private AudioSource destroySound;
 
     private Rigidbody rb;
 
@@ -26,5 +27,6 @@ public class Bullet0516 : MonoBehaviour
     {
         Instantiate(explosionEffect, transform.position, transform.rotation);
         Destroy(gameObject);                                // bullet 昏力
+        destroySound.Play();
     }
 }

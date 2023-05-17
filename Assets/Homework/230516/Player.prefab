@@ -418,6 +418,7 @@ GameObject:
   - component: {fileID: 1706881815984144225}
   - component: {fileID: -6548740166328137694}
   - component: {fileID: -7533388290394657538}
+  - component: {fileID: -7231703936579147341}
   m_Layer: 12
   m_Name: Player
   m_TagString: Untagged
@@ -541,3 +542,18 @@ MonoBehaviour:
   bulletPoint: {fileID: 1261232829183509127}
   bulletPrefab: {fileID: -3774453483772246740, guid: 152d95fb516f9724caf7681b4ee71ce2, type: 3}
   repeatTime: 3
+  sootSound: {fileID: 0}
+--- !u!114 &-7231703936579147341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830675219687184654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c27e980c40d1d44b20ef3727a1b686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera1stPerson: {fileID: 0}
+  camera3rdPerson: {fileID: 0}
