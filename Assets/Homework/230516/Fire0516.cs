@@ -26,7 +26,7 @@ public class Fire0516 : MonoBehaviour
 
     private Coroutine bulletRoutine;
 
-    private void OnRepeatFire(InputValue value)                                             // 발사 키를 누르면 동작
+    private void OnRepeatFire(InputValue value)                                            // 발사 키를 누르면 동작
     {
         if (value.isPressed)                                                               // 눌린 상태이면
         {

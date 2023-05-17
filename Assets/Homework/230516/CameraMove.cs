@@ -5,18 +5,18 @@ using UnityEngine.InputSystem;
 
 public class CameraMove : MonoBehaviour
 {
-    [SerializeField] private CinemachineCameraOffset camera1stPerson;
-    [SerializeField] private CinemachineCameraOffset camera3rdPerson;
+    [SerializeField] private Cinemachine.CinemachineVirtualCamera camera1stPerson;
+    [SerializeField] private Cinemachine.CinemachineVirtualCamera camera3rdPerson;
 
     private void OnChangeCamera(InputValue value)
     {
         if (value.isPressed)                                                          
         {
-            
+            camera1stPerson.Priority += 10;
         }
-        else                                                                            
+        else                                                                           
         {
-            
+            camera1stPerson.Priority -= 10;
         }
     }
 }

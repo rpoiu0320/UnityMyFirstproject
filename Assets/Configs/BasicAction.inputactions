@@ -43,7 +43,7 @@
                 },
                 {
                     "name": "ChangeCamera",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "73320eeb-f51d-4176-a934-d2bd0b7135dd",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -52,17 +52,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "aa6900fa-ca28-4b79-996b-f6914370e2a9",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "WASD",
                     "id": "04385167-d7ad-4c7d-b3ae-3129ccd4a2d0",
